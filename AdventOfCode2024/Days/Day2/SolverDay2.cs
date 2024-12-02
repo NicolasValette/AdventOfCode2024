@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace AdventOfCode2024.Days.Day2
 {
@@ -32,15 +33,35 @@ namespace AdventOfCode2024.Days.Day2
 
         public long GetSolution2Star()
         {
+                    
             long solution = 0;
             for (int i = 0; i < _reportList.Count; i++)
             {
-                if (_reportList[i].IsSafeDiapener())
+                if (_reportList[i].IsSafe2())
                 {
                     solution++;
-                    if (_verbose) Console.Write($"-{i}");
+                    if (_verbose)
+                    {
+                        StringBuilder strb = new StringBuilder();
+                        strb.Append($"line {i + 1} : ");
+                        strb.Append(_reportList[i].ToString());
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine(strb.ToString());
+                    }
+                }
+                else
+                {
+                    if (_verbose)
+                    {
+                        StringBuilder strb = new StringBuilder();
+                        strb.Append($"line {i + 1} : ");
+                        strb.Append(_reportList[i].ToString());
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine(strb.ToString());
+                    }
                 }
             }
+            Console.ResetColor();
             return solution;
         }
 
