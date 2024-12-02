@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Days\Day1\SolverDay1.cs" />
+    <Compile Include="Days\Day2\Report.cs" />
+    <Compile Include="Days\Day2\SolverDay2.cs" />
+    <Compile Include="Days\ISolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\FileReader.cs" />
@@ -53,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ressources\Input\day1.txt" />
+    <Content Include="Ressources\Input\day2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
