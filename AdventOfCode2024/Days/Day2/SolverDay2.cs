@@ -8,9 +8,11 @@ namespace AdventOfCode2024.Days.Day2
     internal class SolverDay2 : ISolver
     {
         private List<Report> _reportList;
-        public SolverDay2()
+        private bool _verbose = false;
+        public SolverDay2(bool verbose = false)
         {
             _reportList = new List<Report>();
+            _verbose = verbose;
             ReadInputFile();
         }
 
@@ -22,7 +24,7 @@ namespace AdventOfCode2024.Days.Day2
                 if (_reportList[i].IsSafe())
                 { 
                     solution++;
-                    Console.WriteLine($"Report n#{i} is safe");
+                    if (_verbose) Console.WriteLine($"Report n#{i} is safe");
                 }
             }
             return solution;
@@ -36,7 +38,7 @@ namespace AdventOfCode2024.Days.Day2
                 if (_reportList[i].IsSafeDiapener())
                 {
                     solution++;
-                    Console.WriteLine($"Report n#{i} is safe");
+                    if (_verbose) Console.Write($"-{i}");
                 }
             }
             return solution;
