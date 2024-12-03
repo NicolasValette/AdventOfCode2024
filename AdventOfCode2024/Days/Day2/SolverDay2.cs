@@ -65,7 +65,7 @@ namespace AdventOfCode2024.Days.Day2
             return solution;
         }
 
-        private void ReadInputFile()
+        public void ReadInputFile()
         {
             FileReader fileReader = new FileReader("day2.txt");
             string line = fileReader.Read();

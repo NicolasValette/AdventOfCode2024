@@ -1,10 +1,5 @@
 ﻿using AdventOfCode2024.Days;
-using AdventOfCode2024.Days.Day2;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdventOfCode2024
 {
@@ -12,8 +7,9 @@ namespace AdventOfCode2024
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Salut");
-            ISolver day = new SolverDay2(true);
+            Solver day = new SolverDay3(true);
 
             #region Solution 1 étoile
             Console.WriteLine("####################");

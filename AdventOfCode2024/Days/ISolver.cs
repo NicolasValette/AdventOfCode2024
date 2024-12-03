@@ -8,6 +8,7 @@ namespace AdventOfCode2024.Days
 {
     internal interface ISolver
     {
+        void ReadInputFile();
         long GetSolution1Star();
         long GetSolution2Star();
     }
