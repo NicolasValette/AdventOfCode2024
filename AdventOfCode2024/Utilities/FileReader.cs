@@ -12,6 +12,7 @@ namespace AdventOfCode2024.Utilities
 {
     public class FileReader
     {
+        private const string INPUTPATH = "E:\\Dev\\ProjetsVisual\\AdventOfCode2024\\AdventOfCode2024\\Ressources\\Input\\";
         private string _fileName;
         StreamReader _stream;
         bool _verbose = false;
@@ -20,7 +21,7 @@ namespace AdventOfCode2024.Utilities
         {
             _fileName = fileName;
             _verbose = verbose;
-            string path = Path.Combine("E:\\Dev\\ProjetsVisual\\AdventOfCode2024\\AdventOfCode2024\\Ressources\\Input\\", _fileName);
+            string path = Path.Combine(INPUTPATH, _fileName);
             if (_verbose) Console.WriteLine($"Reading file : {path}");
             _stream = new StreamReader(path);
         }
@@ -31,6 +32,17 @@ namespace AdventOfCode2024.Utilities
         public string Read()
         {
             return _stream.ReadLine();
+        }
+        public List<string> ReadAndSplitInto2DList()
+        {
+            List<string> _finalList = new List<string>();
+            do
+            {
+                string line = _stream.ReadLine();
+                _finalList.Add(line.Trim());
+            } while (!_stream.EndOfStream);
+
+            return _finalList;
         }
         public string[] ReadToEndAndSplit()
         {

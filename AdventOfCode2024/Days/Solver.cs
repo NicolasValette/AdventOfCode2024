@@ -9,6 +9,7 @@ namespace AdventOfCode2024.Days
     internal abstract class Solver : ISolver
     {
         protected string _input;
+        protected bool _verbose;
         public virtual long GetSolution1Star()
         {
             return -1;
