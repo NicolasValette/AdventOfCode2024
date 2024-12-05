@@ -8,20 +8,20 @@ namespace AdventOfCode2024.Days
 {
     internal class SolverDay5 : Solver
     {
-        private PrintingRules _rules = new PrintingRules();
-        private List<List<int>> _updates = new List<List<int>>();
+        private readonly PrintingRules _rules = new PrintingRules();
+        private readonly List<List<int>> _updates = new List<List<int>>();
         public SolverDay5(bool verbose = false)
         {
             _verbose = verbose;
             ReadInputFile();
         }
 
-        public override void ReadInputFile()
+        public sealed override void ReadInputFile()
         {
             FileReader fileReader = new FileReader("day5.txt");
 
             string line = fileReader.Read();
-            while (line.Trim() != string.Empty)
+            while (!string.IsNullOrWhiteSpace(line))
             {
                 int[] rule = line.Split('|').Select(x => int.Parse(x)).ToArray();
                 _rules.AddRule(rule[0], rule[1]);
