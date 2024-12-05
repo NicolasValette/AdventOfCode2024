@@ -16,7 +16,6 @@ namespace AdventOfCode2024.Days
             ReadInputFile();
         }
 
-
         public override void ReadInputFile()
         {
             FileReader fileReader = new FileReader("day5.txt");
