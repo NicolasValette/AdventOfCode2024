@@ -17,6 +17,8 @@ namespace AdventOfCode2024.Utilities
         StreamReader _stream;
         bool _verbose = false;
 
+        public bool EndOfStream => _stream.EndOfStream;
+
         public FileReader(string fileName, bool verbose = false)
         {
             _fileName = fileName;
@@ -33,6 +35,7 @@ namespace AdventOfCode2024.Utilities
         {
             return _stream.ReadLine();
         }
+
         public List<string> ReadAndSplitInto2DList()
         {
             List<string> _finalList = new List<string>();

@@ -49,6 +49,8 @@
     <Compile Include="Days\Day3\EnabledRange.cs" />
     <Compile Include="Days\Day3\SolverDay3.cs" />
     <Compile Include="Days\Day4\SolverDay4.cs" />
+    <Compile Include="Days\Day5\PrintingRules.cs" />
+    <Compile Include="Days\Day5\SolverDay5.cs" />
     <Compile Include="Days\ISolver.cs" />
     <Compile Include="Days\Solver.cs" />
     <Compile Include="Program.cs" />
@@ -63,6 +65,7 @@
     <Content Include="Ressources\Input\day2.txt" />
     <Content Include="Ressources\Input\day3.txt" />
     <Content Include="Ressources\Input\day4.txt" />
+    <Content Include="Ressources\Input\Day5.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\git\Source\Repos\Toolbox\Toolbox\Toolbox.csproj">

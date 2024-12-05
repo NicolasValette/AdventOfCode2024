@@ -9,7 +9,7 @@ namespace AdventOfCode2024
         {
             
             Console.WriteLine("Salut");
-            Solver day = new SolverDay4(false);
+            Solver day = new SolverDay5(true);
 
             #region Solution 1 étoile
             Console.WriteLine("####################");

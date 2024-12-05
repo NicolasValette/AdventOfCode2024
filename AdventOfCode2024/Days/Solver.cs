@@ -12,6 +12,9 @@ namespace AdventOfCode2024.Days
         protected bool _verbose;
         public virtual long GetSolution1Star()
         {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Not Implemented");
+            Console.ResetColor();
             return -1;
         }
 
@@ -19,6 +22,9 @@ namespace AdventOfCode2024.Days
 
         public virtual long GetSolution2Star()
         {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Not Implemented");
+            Console.ResetColor();
             return -1;
         }
 
