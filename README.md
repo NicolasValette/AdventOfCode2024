@@ -8,9 +8,9 @@ Day 2  => 2/2
 
 Day 3  => 2/2
 
-Day 4  => 2/2
+Day 4 : Ceres Search => 2/2
 
-Day 5  : Print Queue => 2/2
+Day 5 : Print Queue => 2/2
 
 Day 6  =>
 
