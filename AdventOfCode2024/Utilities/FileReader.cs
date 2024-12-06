@@ -38,18 +38,18 @@ namespace AdventOfCode2024.Utilities
 
         public List<string> ReadAndSplitInto2DList()
         {
-            List<string> _finalList = new List<string>();
+            List<string> finalList = new List<string>();
             do
             {
                 string line = _stream.ReadLine();
-                _finalList.Add(line.Trim());
+                finalList.Add(line.Trim());
             } while (!_stream.EndOfStream);
 
-            return _finalList;
+            return finalList;
         }
         public string[] ReadToEndAndSplit()
         {
-            string[] lines = _stream.ReadToEnd().Split('\n');
+            string[] lines = _stream.ReadToEnd().Split('\n').Select(x=>x.Trim()).ToArray();
             return lines;
         }
         public string ReadToEnd()

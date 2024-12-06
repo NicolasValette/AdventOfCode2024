@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2024.Days
 {
-    internal abstract class Solver : ISolver
+    public abstract class Solver : ISolver
     {
         protected string _input;
         protected bool _verbose;

@@ -12,7 +12,7 @@ Day 4 : Ceres Search => 2/2
 
 Day 5 : Print Queue => 2/2
 
-Day 6  =>
+Day 6 : Guard Gallivant => 2/2
 
 Day 7  =>
 
