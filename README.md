@@ -14,7 +14,7 @@ Day 5 : Print Queue => 2/2
 
 Day 6 : Guard Gallivant => 2/2
 
-Day 7  =>
+Day 7 : Bridge Repair => 2/2
 
 Day 8  =>
 
