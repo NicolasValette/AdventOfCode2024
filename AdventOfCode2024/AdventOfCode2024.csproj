@@ -52,10 +52,13 @@
     <Compile Include="Days\Day5\PrintingRules.cs" />
     <Compile Include="Days\Day5\SolverDay5.cs" />
     <Compile Include="Days\Day6\LaboMap.cs" />
+    <Compile Include="Days\Day8\Antenna.cs" />
+    <Compile Include="Days\Day8\Line.cs" />
     <Compile Include="Days\ISolver.cs" />
     <Compile Include="Days\Solver.cs" />
     <Compile Include="Days\SolverDay6.cs" />
     <Compile Include="Days\SolverDay7.cs" />
+    <Compile Include="Days\SolverDay8.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\FileReader.cs" />
@@ -71,6 +74,7 @@
     <Content Include="Ressources\Input\Day5.txt" />
     <Content Include="Ressources\Input\day6.txt" />
     <Content Include="Ressources\Input\day7.txt" />
+    <Content Include="Ressources\Input\day8.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\git\Source\Repos\Toolbox\Toolbox\Toolbox.csproj">

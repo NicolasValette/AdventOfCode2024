@@ -16,7 +16,7 @@ Day 6 : Guard Gallivant => 2/2
 
 Day 7 : Bridge Repair => 2/2
 
-Day 8  =>
+Day 8 : Resonant Collinearity => 2/2
 
 Day 9  =>
 
