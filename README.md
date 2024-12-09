@@ -18,7 +18,7 @@ Day 7 : Bridge Repair => 2/2
 
 Day 8 : Resonant Collinearity => 2/2
 
-Day 9  =>
+Day 9 : Disk Fragmenter => 2/2
 
 Day 10 =>
 
