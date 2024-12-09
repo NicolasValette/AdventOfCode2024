@@ -57,5 +57,10 @@ namespace AdventOfCode2024.Utilities
             string line = _stream.ReadToEnd().Trim();
             return line;
         }
+
+        public char ReadChar()
+        {
+            return (char)_stream.Read();
+        }
     }
 }
