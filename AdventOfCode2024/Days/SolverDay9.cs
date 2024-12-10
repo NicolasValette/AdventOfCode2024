@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using AdventOfCode2024.Days.Day9;
 using AdventOfCode2024.Utilities;
 using static System.Convert;
 

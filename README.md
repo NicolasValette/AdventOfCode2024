@@ -20,7 +20,7 @@ Day 8 : Resonant Collinearity => 2/2
 
 Day 9 : Disk Fragmenter => 2/2
 
-Day 10 =>
+Day 10 : Hoof It => 2/2
 
 Day 11 =>
 

@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
-namespace AdventOfCode2024.Days
+namespace AdventOfCode2024.Days.Day9
 {
     public class DiskBlock : IEquatable<DiskBlock>
     {
@@ -43,18 +42,13 @@ namespace AdventOfCode2024.Days
         private int _firstFreeSpace = -1;
         private int _lastFileBlock = -1;
         
-        private List<string> _disk;
-        private List<DiskBlock> _diskBlocks;
+        private List<string> _disk = new List<string>();
+        private List<DiskBlock> _diskBlocks = new List<DiskBlock>();
 
         public int FirstFreeSpace => _firstFreeSpace;
         public int LastFileBlock => _lastFileBlock;
         public List<string> Disk => _disk;
         public List<DiskBlock> DiskBlock => _diskBlocks;
-        public DiskUsage()
-        {
-            _disk = new List<string>();
-            _diskBlocks = new List<DiskBlock>();
-        }
 
         private void AddBlockOrFreeSpace(string element)
         {
