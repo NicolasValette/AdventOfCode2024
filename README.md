@@ -22,7 +22,7 @@ Day 9 : Disk Fragmenter => 2/2
 
 Day 10 : Hoof It => 2/2
 
-Day 11 =>
+Day 11 : Plutonian Pebbles => 2/2
 
 Day 12 =>
 
