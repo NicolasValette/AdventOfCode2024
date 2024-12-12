@@ -49,8 +49,16 @@ namespace AdventOfCode2024.Utilities
         }
         public string[] ReadToEndAndSplit()
         {
+            
             string[] lines = _stream.ReadToEnd().Split('\n').Select(x=>x.Trim()).ToArray();
             return lines;
+        }
+        public char[][] ReadToEndAndSplitInto2DCharArray()
+        {
+            
+            var lines = _stream.ReadToEnd().Split('\n').Select(x=>x.Trim()).ToArray();
+            var charArray = lines.Select(x => x.ToArray()).ToArray();
+            return charArray;
         }
         public List<string> ReadToEndAndSplit(char separator)
         {

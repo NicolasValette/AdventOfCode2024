@@ -8,8 +8,7 @@ namespace AdventOfCode2024
         private static void Main(string[] args)
         {
             
-            Console.WriteLine("Salut");
-            Solver day = new SolverDay11(true);
+            Solver day = new SolverDay12(true);
 
             #region Solution 1 étoile
             Console.WriteLine("####################");
