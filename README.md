@@ -24,7 +24,7 @@ Day 10 : Hoof It => 2/2
 
 Day 11 : Plutonian Pebbles => 2/2
 
-Day 12 : Garden Groups => 1/2
+Day 12 : Garden Groups => 2/2
 
 Day 13 =>
 
