@@ -26,7 +26,7 @@ Day 11 : Plutonian Pebbles => 2/2
 
 Day 12 : Garden Groups => 2/2
 
-Day 13 =>
+Day 13 : Claw Contraption => 2/2
 
 Day 14 =>
 

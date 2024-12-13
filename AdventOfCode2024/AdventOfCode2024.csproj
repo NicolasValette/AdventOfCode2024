@@ -64,6 +64,7 @@
     <Compile Include="Days\SolverDay10.cs" />
     <Compile Include="Days\SolverDay11.cs" />
     <Compile Include="Days\SolverDay12.cs" />
+    <Compile Include="Days\SolverDay13.cs" />
     <Compile Include="Days\SolverDay6.cs" />
     <Compile Include="Days\SolverDay7.cs" />
     <Compile Include="Days\SolverDay8.cs" />
@@ -80,6 +81,7 @@
     <Content Include="Ressources\Input\day10.txt" />
     <Content Include="Ressources\Input\day11.txt" />
     <Content Include="Ressources\Input\Day12.txt" />
+    <Content Include="Ressources\Input\day13.txt" />
     <Content Include="Ressources\Input\day2.txt" />
     <Content Include="Ressources\Input\day3.txt" />
     <Content Include="Ressources\Input\day4.txt" />
@@ -94,6 +96,9 @@
       <Project>{ece7859c-4b42-45eb-b835-a44564172f71}</Project>
       <Name>Toolbox</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Days\Day13\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
