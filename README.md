@@ -30,7 +30,7 @@ Day 13 : Claw Contraption => 2/2
 
 Day 14 : Restroom Redoubt => 2/2
 
-Day 15 =>
+Day 15 : Warehouse Woes => 2/2
 
 Day 16 =>
 
