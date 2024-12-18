@@ -32,11 +32,11 @@ Day 14 : Restroom Redoubt => 2/2
 
 Day 15 : Warehouse Woes => 2/2
 
-Day 16 => 0/2
+Day 16 : Reindeer Maze => 0/2
 
-Day 17 =>
+Day 17 : Chronospatial Computer => 1/2
 
-Day 18 =>
+Day 18 : RAM Run => 2/2
 
 Day 19 =>
 
