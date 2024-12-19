@@ -74,6 +74,12 @@
     <Compile Include="Days\SolverDay16.cs" />
     <Compile Include="Days\SolverDay17.cs" />
     <Compile Include="Days\SolverDay18.cs" />
+    <Compile Include="Days\SolverDay19.cs" />
+    <Compile Include="Days\SolverDay20.cs" />
+    <Compile Include="Days\SolverDay21.cs" />
+    <Compile Include="Days\SolverDay22.cs" />
+    <Compile Include="Days\SolverDay23.cs" />
+    <Compile Include="Days\SolverDay24.cs" />
     <Compile Include="Days\SolverDay6.cs" />
     <Compile Include="Days\SolverDay7.cs" />
     <Compile Include="Days\SolverDay8.cs" />
@@ -96,6 +102,7 @@
     <Content Include="Ressources\Input\day16.txt" />
     <Content Include="Ressources\Input\day17.txt" />
     <Content Include="Ressources\Input\day18.txt" />
+    <Content Include="Ressources\Input\day19.txt" />
     <Content Include="Ressources\Input\day2.txt" />
     <Content Include="Ressources\Input\day3.txt" />
     <Content Include="Ressources\Input\day4.txt" />
