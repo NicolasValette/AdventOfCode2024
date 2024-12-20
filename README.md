@@ -40,7 +40,7 @@ Day 18 : RAM Run => 2/2
 
 Day 19 : Linen Layout => 2/2
 
-Day 20 =>
+Day 20 : Race Condition => 1/2
 
 Day 21 =>
 
